@@ -1,6 +1,6 @@
 public class populate {
     public static void main (String[] args) {
-
+        //2d array called a with array 1 (rows) set to 4 and array 2 (Cols) set at 3
         int [][] a = new int[4][3];
 
         for(int row=0; row < a.length; row ++) {
@@ -33,8 +33,13 @@ public class populate {
     */
     public static int[][] populateArray(int rows, int cols) {
         int[][] a = new int[rows][cols];
+        for(int row=0; row <a.length; row++) {
+            for (int col= 0; col<a[row].length; col++){
+                
+            }
+        }
 
-        for (int row =0; row < )
+        //for (int row =0; row < )
 
         return a;
     }
